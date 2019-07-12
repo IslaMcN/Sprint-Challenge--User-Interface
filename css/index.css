@@ -247,7 +247,15 @@ html{
 .topish {
     display:flex;
 }
-.one .two .three .four .five{
+.one, .two, .three, .four, .five{
     margin:10px;
     padding:20px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    padding:20px;
+    padding-top: 30px;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+   
 }
