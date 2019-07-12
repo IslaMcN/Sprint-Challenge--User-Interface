@@ -34,9 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is basically easy to read. You should be about to glance at the code and know exactly what is the header, a paragraph, a section, and a footer. Semantic HTML uses those words exactly in the code so you can do a quick glance and not have to do any kind of deductive reasoning of "I think this 'div' or 'span' is the header because it has a 'nav' and a logo." With Semantic HTML it will say:
+        <!-- <header>
+            <nav>
+                Link to stuff
+                And More stuff
+                And Maybe Some More Stuff
+            </nav>
+            <img class= "logo" href="blahblahblah.com/img">
+        </header> -->
+        
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    
+    With inline elements they do not start on a new line. They appear next to other elements. Some browsers will let you add margins and padding to the left and right of inline elements but as easily when it comes to the top and bottom because they have a fixed height.
+    With block elements block always separate onto a new line. An example of that would be "<div>". You can add padding and margins to block elements with little to no issue.
+
+
 
 3. What are the 4 areas of the box model?
+
+    
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
