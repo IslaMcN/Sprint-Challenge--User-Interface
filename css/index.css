@@ -241,9 +241,13 @@ html{
     display: flex;
     justify-content: baseline;
     flex-wrap: wrap;
-
+    
 }
 /* CSS FOR ABOUT PAGE EXCULSIVELY */
 .topish {
     display:flex;
+}
+.one .two .three .four .five{
+    margin:10px;
+    padding:20px;
 }
