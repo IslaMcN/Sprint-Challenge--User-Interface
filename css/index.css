@@ -222,16 +222,20 @@ html{
 }
 
 .links{
+    
     padding: 20px;
     text-decoration: none;
     color: black;
     padding-top: 30px;
+    padding-bottom: 0px;
+    
 }
 .text-container{
     display:flex;
     flex-direction: column;
     padding: 5%;
     flex-grow: 1;
+    margin: 0;
     
 }
 
@@ -258,4 +262,16 @@ html{
     width: 90px;
     margin: 30px;
    
+}
+nav{
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+button {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    background: white;
 }
