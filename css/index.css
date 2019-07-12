@@ -202,3 +202,16 @@ footer nav a {
 .container{
     margin-left: 7%;
 }
+header .nav {
+    display: flex;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+    padding: 10%;
+
+}
+.links{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
