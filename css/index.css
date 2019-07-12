@@ -46,6 +46,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
     border-spacing: 0;
+    padding-bottom: 0;
     
 }
 
@@ -236,15 +237,15 @@ html{
 .text-container{
     display:flex;
     flex-direction: column;
-    padding: 5%;
-    flex-grow: 1;
+    padding:0 11px 15px;
+    padding-top: 9px;
+    /* flex-grow: 1; */
     margin: 0;
     
 }
 
 .boxes {
     border-bottom: 1px dashed black;
-    padding-bottom: 10%;
     display: flex;
     justify-content: baseline;
     flex-wrap: wrap;
