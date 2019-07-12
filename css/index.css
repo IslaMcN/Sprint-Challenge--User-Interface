@@ -243,3 +243,7 @@ html{
     flex-wrap: wrap;
 
 }
+/* CSS FOR ABOUT PAGE EXCULSIVELY */
+.topish {
+    display:flex;
+}
