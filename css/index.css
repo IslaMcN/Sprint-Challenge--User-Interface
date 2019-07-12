@@ -252,10 +252,11 @@ html{
 /* CSS FOR ABOUT PAGE EXCULSIVELY */
 .topish {
     display:flex;
+    margin-left: 0;
 }
 .one, .two, .three, .four, .five{
-    margin:10px;
-    padding:20px;
+    margin:10px ;
+    padding:20px ;
 }
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     padding:20px;
@@ -274,9 +275,10 @@ nav{
 }
 button {
     text-decoration: none;
-    border: 1px solid black;
+    border:2px solid black;
     border-radius: 12px;
-    padding: 10px;
+    padding: 10px 35px;
+    font: 30px;
     background: white;
 }
 .links, .logo{
@@ -286,4 +288,8 @@ button {
 }
 .logo{
     height: 40px;
+}
+.about {
+    padding-top:5%;
+    border-bottom: 1px dashed black;
 }
