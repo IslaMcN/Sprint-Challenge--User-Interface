@@ -154,7 +154,7 @@ footer nav a {
 }
 .mama4textcontainer {
     display: flex;
-    
+    margin: 3%;
 }
 .box1{
     background: teal;
@@ -199,19 +199,20 @@ footer nav a {
     background:dodgerblue;
     color: white;
 }
-.container{
+html{
     margin-left: 7%;
+    margin-top: 3%;
 }
-header .nav {
-    display: flex;
-    width: 691px;
-    vertical-align: top;
-    margin-top: 35px;
-    padding: 10%;
 
-}
 .links{
     padding: 20px;
     text-decoration: none;
     color: black;
+    padding-top: 30px;
+}
+.text-container{
+    padding: 5%;
+}
+.topofthemiddle {
+    display: inline;
 }
