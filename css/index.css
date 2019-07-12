@@ -170,5 +170,35 @@ footer nav a {
     color:white;
 }
 .box4{
-    background
+    background: coral;
+    color: white;
+
+}
+.box5{
+    background:crimson;
+    color:white;
+
+}
+.box6{
+    background:forestgreen;
+    color: white;
+}
+.box7 {
+    background: darkorchid;
+    color: white;
+}
+.box8 {
+    background: hotpink;
+    color:white;
+}
+.box9 {
+    background: indigo;
+    color: white;
+}
+.box10 {
+    background:dodgerblue;
+    color: white;
+}
+.container{
+    margin-left: 7%;
 }
