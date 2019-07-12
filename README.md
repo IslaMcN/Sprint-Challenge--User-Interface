@@ -54,11 +54,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What are the 4 areas of the box model?
 
-    
+    Content, Padding, Border, Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    With flexbox whenever you have "align" it means along the 'y' axis or vertical axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is important because it allows you to have more control over your machine and files when you are doing a project. It helps with version control so you can update to the cloud reguarly. It allows collaborators to work side by side without steping on each others toes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
