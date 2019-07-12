@@ -159,6 +159,8 @@ footer nav a {
 .box1{
     background: teal;
     color: white;
+    height: 20%;
+    width: 20%;
 }
 .box2{
     background:gold;
