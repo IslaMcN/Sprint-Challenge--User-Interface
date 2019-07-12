@@ -46,7 +46,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
     border-spacing: 0;
-   
+    
 }
 
 * {
@@ -72,7 +72,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .top-content {
@@ -80,7 +79,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
     
 }
 
@@ -93,7 +91,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    
+    /* border-top: 1px dashed black; */
 }
 
 .middle-content h2 {
@@ -151,10 +149,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.mama4textcontainer {
-    display: flex;
-    margin: 3%;
-}
+
 .box1{
     background: teal;
     color: white;
@@ -216,4 +211,8 @@ html{
 }
 .topofthemiddle {
     display: inline;
+}
+.boxes {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10%
 }
