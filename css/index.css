@@ -91,7 +91,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    /* border-top: 1px dashed black; */
+    
 }
 
 .middle-content h2 {
@@ -207,10 +207,14 @@ html{
     padding-top: 30px;
 }
 .text-container{
+    display:flex;
+    flex-direction: column;
     padding: 5%;
+    flex-grow: 1;
+    
 }
 .topofthemiddle {
-    display: inline;
+    display: flex;
 }
 .boxes {
     border-bottom: 1px dashed black;
