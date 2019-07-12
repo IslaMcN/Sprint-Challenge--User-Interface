@@ -87,7 +87,8 @@ p {
     margin: 0 2% 20px;
     justify-content: space-around;
     border-bottom: 1px dashed black;
-    
+    width: 100%;
+    margin-left: 0;
 }
 
 .middle-content h2 {
@@ -253,10 +254,12 @@ html{
 .topish {
     display:flex;
     margin-left: 0;
+    width: 100%;
 }
 .one, .two, .three, .four, .five{
     margin:10px ;
     padding:20px ;
+    ;
 }
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     padding:20px;
@@ -293,3 +296,4 @@ button {
     padding-top:5%;
     border-bottom: 1px dashed black;
 }
+ 
