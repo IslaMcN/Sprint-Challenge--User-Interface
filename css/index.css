@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-right: 7%;
 }
 ol, ul {
 	list-style: none;
@@ -44,7 +45,9 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    padding-bottom: 0;
+    
 }
 
 * {
@@ -64,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
@@ -74,20 +78,18 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
 
 .middle-content {
-    margin-bottom: 20px;
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
     border-bottom: 1px dashed black;
+    width: 100%;
+    margin-left: 0;
 }
 
 .middle-content h2 {
@@ -116,6 +118,7 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+   
 }
 
 .bottom-content .text-container {
@@ -127,20 +130,171 @@ p {
 }
 
 footer {
-    width: 100%;
-    background: black;
-}
 
-footer nav {
+    width: 100%;
+    background: black;}
+    
+
+ footer nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box1{
+    background: teal;
+    color: white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box2{
+    background:gold;
+    color:white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box3{
+    background:cadetblue;
+    color:white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box4{
+    background: coral;
+    color: white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box5{
+    background:crimson;
+    color:white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box6{
+    background:forestgreen;
+    color: white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box7 {
+    background: darkorchid;
+    color: white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box8 {
+    background: hotpink;
+    color:white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box9 {
+    background: indigo;
+    color: white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+.box10 {
+    background:dodgerblue;
+    color: white;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+html{
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.links{
+    margin: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    
+}
+.text-container{
+    display:flex;
+    flex-direction: column;
+    padding:0 11px 15px;
+    padding-top: 9px;
+    /* flex-grow: 1; */
+    margin: 0;
+    
+}
+
+.boxes {
+    border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    
+}
+/* CSS FOR ABOUT PAGE EXCULSIVELY */
+.topish {
+    display:flex;
+    margin-left: 0;
+    width: 100%;
+}
+.one, .two, .three, .four, .five{
+    margin:10px ;
+    padding:20px ;
+    ;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    padding:20px;
+    padding-top: 30px;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+   
+}
+nav{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin: 20px;
+    text-align: center;
+
+}
+button {
+    text-decoration: none;
+    border:2px solid black;
+    border-radius: 12px;
+    padding: 10px 35px;
+    font: 30px;
+    background: white;
+}
+.links, .logo{
+    display: inline;
+    
+
+}
+.logo{
+    height: 40px;
+}
+.about {
+    padding-top:5%;
+    border-bottom: 1px dashed black;
+}
+ 
